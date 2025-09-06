@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa a tela inteira */
+    margin: 0;
+}
+
+/* Caixa de login */
+.caixaLogin {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Campos empilhados */
+.caixaLogin input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Botões de ação */
+.caixaLogin button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff00f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.caixaLogin button:hover {
+    background-color: #ae07d8;
+}
+
+
+.temaBtn {
+    width: 140px;
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.temaBtn.claro {
+    background-color: #e0e0e0;
+}
+
+.temaBtn.claro:hover {
+    background-color: #c0c0c0;
+}
+
+.temaBtn.escuro {
+    background-color: #333;
+    color: white;
+}
+
+.temaBtn.escuro:hover {
+    background-color: #111;
+}
+
+
+.escuro {
+    background-color: #222;
+    color: white;
+}
+
+.escuro .caixaLogin {
+    background-color: #333;
+    color: white;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+}
